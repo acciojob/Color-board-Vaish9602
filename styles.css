@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+.container{
+display:flex;
+justify-content:center;
+gap:15px;
+margin-top:100px;
+}
+.square{
+width:100px;
+height:100px;
+background-color:black;
+transition:background-color 1s ease; 
+}
+.square:hover{
+	  background-color: dodgerblue;
+}
